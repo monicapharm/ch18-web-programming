@@ -8,4 +8,5 @@ var element = d3.select("#lorem");
 console.log(element.html());
 
 var strong =  element.select("strong")
-console.log(strong.html());
+console.log(strong .html());
+

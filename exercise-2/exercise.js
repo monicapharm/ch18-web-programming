@@ -23,7 +23,7 @@ d3.select("path")
 //Hint: first select the group, then select all the circles _inside_ that group.
  
 var group1 = d3.select("#group1");
-group1.selectAll('circle').attr('fill', 'white');
+group1.selectAll('circle').attr('fill', 'white'); 
 
 //Give all of the <circle> elements inside the `<g>` inside of `group1`
 //a fill color of '#573d29'
